@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Car;
+
+var car = new CarOb("Volvo", "XC60", 2020, 20);
+car.Wypisz();
